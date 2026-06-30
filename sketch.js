@@ -1,5 +1,6 @@
 let racket
 let ball
+let rabbit
 
 
 function setup() {
@@ -12,6 +13,7 @@ function preload(){
   //folder/name of image
 racket = loadImage('Images/tennisracket.png')
 ball = loadImage('Images/tennisball.png')
+rabbit = loadImage('Images/rabbit.pmng')
 }
 
 function draw(){
@@ -68,4 +70,5 @@ background(135, 206, 235);
 
   image(racket,windowWidth/3, windowHeight/3, 50,50)
   image(ball,windowWidth/4, windowHeight/2, 50, 50)
+  image (rabbit,windowWidth/6, windowHeight/6, 50,50)
 }
