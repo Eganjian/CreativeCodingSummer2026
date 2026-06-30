@@ -66,6 +66,6 @@ function draw(){
   fill(200, 180, 120);
   rect(225, 360, 50, 140);
 
-  image(racket,windowWidth/3, windowHeight/3, 50,50)
-  image(ball,windowWidth/2, windowHeight/2, 50, 50)
+  image(racket,windowWidth/4, windowHeight/3, 50,50)
+  image(ball,windowWidth/3, windowHeight/2, 50, 50)
 }
