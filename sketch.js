@@ -15,7 +15,7 @@ ball = loadImage('Images/tennisball.png')
 }
 
 function draw(){
-
+background(135, 206, 235);
   //sun
   fill(255, 230, 0);
   ellipse(420, 70, 80, 80);
