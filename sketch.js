@@ -13,7 +13,7 @@ function preload(){
   //folder/name of image
 racket = loadImage('Images/tennisracket.png')
 ball = loadImage('Images/tennisball.png')
-rabbit = loadImage('Images/rabbit.pmng')
+rabbit = loadImage('Images/rabbit.png')
 }
 
 function draw(){
